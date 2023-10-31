@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ "$DRY_RUN" = "true" ]; then
   echo "Dry run is enabled"

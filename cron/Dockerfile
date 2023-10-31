@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM --platform=linux/arm/v6 alpine:3.17
 
 RUN apk update && \
     apk add --no-cache docker-cli docker-cli-compose
