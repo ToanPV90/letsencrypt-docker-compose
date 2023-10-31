@@ -1,4 +1,4 @@
-FROM --platform=linux/arm/v6 nginx:1.23-alpine3.17-slim
+FROM --platform=linux/arm/v6 nginx:1.23-alpine3.17
 
 RUN apk add --no-cache openssl jq
 
